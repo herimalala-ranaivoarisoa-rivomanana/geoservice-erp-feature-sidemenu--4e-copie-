@@ -1,0 +1,30 @@
+[
+  {
+    "chauffeurId": "13JKLJELZ232K3JLZJEK",
+    "nom": "Chauffeur1",
+    "cin": "11600505001",
+    "adresse": "Adresse chauffeur1",
+    "téléphone": "0340000001"
+  },
+  {
+    "chauffeurId": "13JKLJELZ232K3DLZJEK",
+    "nom": "Chauffeur2",
+    "cin": "11600505002",
+    "adresse": "Adresse chauffeur2",
+    "téléphone": "0340000002"
+  },
+  {
+    "chauffeurId": "13JKLJELF232K3JLZJEK",
+    "nom": "Chauffeur3",
+    "cin": "11600505003",
+    "adresse": "Adresse chauffeur3",
+    "téléphone": "0340000003"
+  },
+  {
+    "chauffeurId": "13JKLJELR232K3JLZJEK",
+    "nom": "Chauffeur4",
+    "cin": "11600505004",
+    "adresse": "Adresse chauffeur4",
+    "téléphone": "0340000004"
+  }
+]

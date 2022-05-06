@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "paths": {
+        "@project/services": ["./src/services"],
+        "@project/config": ["./src/config"],
+        "@project/utils": ["./src/utils"],
+        "@project/components": ["./src/components"],
+        "@project/pages":["./src/pages"],
+        "@project/store": ["./src/store"]
+      }
+    }
+  }
+  

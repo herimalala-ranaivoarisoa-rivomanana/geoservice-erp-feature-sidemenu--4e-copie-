@@ -1,0 +1,17 @@
+{
+	"appId": "dev.riv0manana.erp",
+	"appName": "GeoService-ERP",
+	"webDir": "build",
+	"bundledWebRuntime": false,
+	"npmClient": "yarn",
+	"plugins": {
+		"Keyboard": {
+			"resize": "ionic",
+			"style": "light"
+		},
+		"GoogleAuth": {
+			"scopes": ["profile", "email"],
+			"serverClientId": "186421854860-d0dbtkmh47pghu81pvp184d8pd3miqbl.apps.googleusercontent.com"
+		}
+	}
+}

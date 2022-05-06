@@ -1,0 +1,7 @@
+{
+  "name": "GeoService-ERP",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

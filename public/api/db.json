@@ -1,0 +1,146 @@
+{
+  "chauffeurs": [
+    {
+      "id": "CH001",
+      "name": "Chauffeur1",
+      "cin": "516.001.001.001",
+      "adresse": "Adresse Chauffeur1",
+      "telephone": "0340000001",
+      "permis": "510001"
+    },
+    {
+      "id": "CH002",
+      "name": "Chauffeur2",
+      "cin": "516.001.001.002",
+      "adresse": "Adresse Chauffeur2",
+      "telephone": "0320000002",
+      "permis": "510002"
+    }
+  ],
+  "clients": [
+    {
+      "name": "Client1",
+      "telephone": "0340214678",
+      "id": 1
+    },
+    {
+      "id": "2",
+      "name": "Client2",
+      "telephone": "0320456802"
+    }
+  ],
+  "users": [],
+  "pharmaciens": [
+    {
+      "adresseLatLng": [
+        {
+          "longitude": "14",
+          "latitude": "45"
+        }
+      ],
+      "name": "Analamahitsy",
+      "adresse": "Analamahitsy",
+      "telephone": "0325647896",
+      "id": 1
+    }
+  ],
+  "factures": [
+    {
+      "details": [
+        {
+          "quantity": "895",
+          "medecineId": "ME001"
+        }
+      ],
+      "chauffeurId": "CH001",
+      "id": "FA001",
+      "clientId": "1",
+      "pharmacienId": "1",
+      "date": "12-23-2022",
+      "chauffeur": {
+        "id": "CH001",
+        "name": "Chauffeur1",
+        "cin": "516.001.001.001",
+        "adresse": "Adresse Chauffeur1",
+        "telephone": "0340000001",
+        "permis": "510001"
+      },
+      "pharmacien": {
+        "adresseLatLng": [
+          {
+            "longitude": "14",
+            "latitude": "45"
+          }
+        ],
+        "name": "Analamahitsy",
+        "adresse": "Analamahitsy",
+        "telephone": "0325647896",
+        "id": 1
+      },
+      "client": {
+        "name": "Client1",
+        "telephone": "0340214678",
+        "id": 1
+      }
+    },
+    {
+      "details": [
+        {
+          "quantity": "23",
+          "medecineId": "ME002"
+        },
+        {
+          "quantity": "9",
+          "medecineId": "ME001"
+        }
+      ],
+      "id": "FA002",
+      "clientId": "2",
+      "chauffeurId": "CH002",
+      "pharmacienId": "1",
+      "date": "02-06-2023",
+      "chauffeur": {
+        "id": "CH002",
+        "name": "Chauffeur2",
+        "cin": "516.001.001.002",
+        "adresse": "Adresse Chauffeur2",
+        "telephone": "0320000002",
+        "permis": "510002"
+      },
+      "pharmacien": {
+        "adresseLatLng": [
+          {
+            "longitude": "14",
+            "latitude": "45"
+          }
+        ],
+        "name": "Analamahitsy",
+        "adresse": "Analamahitsy",
+        "telephone": "0325647896",
+        "id": 1
+      },
+      "client": {
+        "id": "2",
+        "name": "Client2",
+        "telephone": "0320456802"
+      }
+    }
+  ],
+  "medecines": [
+    {
+      "id": "ME001",
+      "name": "Doliprame 500mg",
+      "price": 4
+    },
+    {
+      "id": "ME002",
+      "name": "Oflocet 200mg",
+      "price": 6
+    },
+    {
+      "id": "ME003",
+      "name": "Paracétamol 1g",
+      "price": 10
+    }
+  ]
+}
